@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bloquinho",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dirt2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bloquinho",
+  "name":"obj_dirt2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"chaos",
+    "path":"folders/Objects/chaos.yy",
   },
   "parentObjectId":{
     "name":"obj_colisao_teste",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bloquinho",
-    "path":"sprites/spr_bloquinho/spr_bloquinho.yy",
+    "name":"spr_dirt_1",
+    "path":"sprites/spr_dirt_1/spr_dirt_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

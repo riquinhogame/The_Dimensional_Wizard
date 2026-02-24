@@ -1,5 +1,5 @@
 //spawnando o troca dimension
-
+inicia_squash()
 
 //criando as variaveis do player
 
@@ -164,7 +164,7 @@ efeito_troca = function ()
             instance_create_layer(x,y,layer,obj_rastro_player_t)
         }
         
-        grav = 0.1
+        grav = 0.17
         
     }
     else {
@@ -195,6 +195,13 @@ estado_parado = function ()
     {
         estado = estado_pulo
     } 
+    
+    if(jump)
+    {
+        estado = estado_pulo
+        efeito_squash(1.3,1.5)
+    }
+    
 }
 
 estado_move = function()
@@ -212,13 +219,21 @@ estado_move = function()
     {
         estado = estado_pulo
     }
+    
+    if(jump)
+    {
+        estado = estado_pulo
+        efeito_squash(1.3,1.5)
+    }
+    
 }
 
 
 estado_pulo = function()
 {
     ajusta_escala()
-    
+
+       
     troca_sprites(spr_player_jump_air)
     
     if(chao)

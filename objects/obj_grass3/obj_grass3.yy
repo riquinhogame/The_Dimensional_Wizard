@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bloquinho",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_grass3",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bloquinho",
+  "name":"obj_grass3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"chaos",
+    "path":"folders/Objects/chaos.yy",
   },
   "parentObjectId":{
     "name":"obj_colisao_teste",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bloquinho",
-    "path":"sprites/spr_bloquinho/spr_bloquinho.yy",
+    "name":"spr_grass_3",
+    "path":"sprites/spr_grass_3/spr_grass_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
