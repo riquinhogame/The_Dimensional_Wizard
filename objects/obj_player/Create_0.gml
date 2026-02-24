@@ -1,3 +1,6 @@
+//spawnando o troca dimension
+
+
 //criando as variaveis do player
 
 //variaveis de movimento e gravidade
@@ -15,13 +18,14 @@ left    = noone
 up      = noone
 down    = noone
 jump    = noone
+troca   = noone
 
 //variaveis de estados do player
 estado = noone
 
 
 //lista de colisoes do player
-colid_list = [obj_colisao_teste]
+colid_list = [obj_colisao_teste,obj_grass1,obj_colisao_teste_1]
 
 //variaveis de escala da imagem do player
 dir = 1
@@ -29,6 +33,9 @@ dir = 1
 //variaveis relacionadas a orbe
 orbe = noone
 usa_orbe = false
+
+mask_index = spr_player_idle
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /// ///////////////////////////////////////////////////////////////////////////////////////////
@@ -131,6 +138,41 @@ troca_sprites = function (_spr = spr_player_idle)
 
 
 
+efeito_troca = function ()
+{   
+    troca = keyboard_check_pressed(ord("K"))
+    
+    if(troca)
+    {
+        global.dimen = !global.dimen
+    }
+    
+    
+    if(global.dimen)
+    {   
+        
+        
+        gpu_set_blendmode(bm_add)
+        
+        if(velh == 0)
+        {
+            instance_create_layer(x,y,layer,obj_rastro_player_t_1)
+        }
+        
+        if(velh != 0 or velv != 0)
+        {
+            instance_create_layer(x,y,layer,obj_rastro_player_t)
+        }
+        
+        grav = 0.1
+        
+    }
+    else {
+        grav = .2
+    	gpu_set_blendmode(-1)
+    }
+    
+}
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////

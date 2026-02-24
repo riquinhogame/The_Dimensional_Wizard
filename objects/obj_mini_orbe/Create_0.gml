@@ -1,13 +1,14 @@
+
 inicia_squash()
 inicia_brilho()
 
 efeito_squash(2.1,2.1)
 
-colid_list = [obj_colisao_teste]
+colid_list = [obj_colisao_teste,obj_grass1,obj_dirt1]
 
 dir = point_direction(x,y,mouse_x,mouse_y)
 direction = dir
-speed  = 3
+speed  = 4.5
 
 timer = 230
 

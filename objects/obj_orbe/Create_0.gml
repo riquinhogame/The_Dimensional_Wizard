@@ -28,5 +28,7 @@ usas_orbe = function()
 
         aplica_efeito_brilho(.3)
     }
-  
+    
+
+    
 }
