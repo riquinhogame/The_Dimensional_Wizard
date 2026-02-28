@@ -54,7 +54,7 @@ pega_inputs = function ()
     left = keyboard_check(ord("A")) or keyboard_check(vk_left)
     
     //fazendo o mesmo so que para o boato de pulo
-    jump = keyboard_check(vk_space) or keyboard_check(ord("Z"))
+    jump = keyboard_check(vk_space) or keyboard_check(ord("W"))
     
 }
 
@@ -143,7 +143,7 @@ troca_sprites = function (_spr = spr_player_idle)
 
 efeito_troca = function ()
 {   
-    troca = keyboard_check_pressed(ord("K"))
+    troca = keyboard_check_pressed(ord("Z"))
     
     if(troca)
     {

@@ -10,4 +10,4 @@ image_yscale = 1.2
 dir = 0
 
 randomise()
-hspeed = random_range(-.9, .9)
+hspeed = 0.8

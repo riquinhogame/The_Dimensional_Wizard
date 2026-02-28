@@ -53,6 +53,7 @@
     {"name":"inst_EDFE","path":"rooms/Rm_2/Rm_2.yy",},
     {"name":"inst_7D940C20","path":"rooms/Rm_2/Rm_2.yy",},
     {"name":"inst_1BBAC151","path":"rooms/Rm_2/Rm_2.yy",},
+    {"name":"inst_64F8B228","path":"rooms/Rm_2/Rm_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -93,11 +94,14 @@
         {"$GMRInstance":"v4","%Name":"inst_1BBAC151","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BBAC151","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[rainbow]Gostou??[/rainbow] Que [c_red]tal Agora[/c] Um Desafio Bem [wave]Pequeno?[/wave]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_64F8B228","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64F8B228","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[c_red]quando você quebra os blocos você recupera o tiro automaticamente!!!!![/c]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.125,"scaleY":1.75,"x":269.0,"y":320.0,},
       ],"layers":[],"name":"Orbe","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"decoracoes_obj","depth":300,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_47AC210A1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47AC210A1_1","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"se voce [c_red]clicar no botão[/c] [rainbow]esquerdo do mouse[/rainbow], o mago vai atirar uma [c_purple]orbe...............[/c]",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4062502,"scaleY":1.4062502,"x":104.0,"y":320.0,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"se você [c_red]clicar no botão[/c] [rainbow]esquerdo do mouse[/rainbow], o mago vai atirar uma [c_purple]orbe...............[/c]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6562502,"scaleY":1.4062502,"x":102.0,"y":320.0,},
         {"$GMRInstance":"v4","%Name":"inst_7FB13ABB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FB13ABB1","objectId":{"name":"obj_colisao_teste","path":"objects/obj_colisao_teste/obj_colisao_teste.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":5.25,"x":-32.0,"y":152.0,},
       ],"layers":[],"name":"decoracoes_obj","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"decoracoes_1_1","assets":[

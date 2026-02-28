@@ -1,9 +1,9 @@
-image_alpha -= 0.2
+image_alpha -= 0.16
 
-if(image_alpha <= 0.04)
+if(image_alpha <= 0.03)
 {
     room_goto(rm)
-     audio_stop_all()
+
     instance_destroy()
     persistent = false
     
