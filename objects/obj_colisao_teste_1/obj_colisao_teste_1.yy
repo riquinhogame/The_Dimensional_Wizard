@@ -32,5 +32,5 @@
     "path":"sprites/spr_colisao_place_roder/spr_colisao_place_roder.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

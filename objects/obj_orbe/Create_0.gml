@@ -11,7 +11,8 @@ usas_orbe = function()
     timer--
     
     if(!criar)
-    {
+    {   
+        audio_play_sound(snd_orbe,1,0,0.9,0,random_range(0.8,1.2))
         var mini_b = instance_create_depth(x,y,depth,obj_mini_orbe)
         mini_b.image_xscale = .5
         mini_b.image_yscale = .5
@@ -25,7 +26,7 @@ usas_orbe = function()
         criar = false
         obj_player.usa_orbe = false
         timer = 210
-
+        audio_play_sound(snd_orbe,1,0,0.3,0,random_range(0.4,0.6))
         aplica_efeito_brilho(.3)
     }
     

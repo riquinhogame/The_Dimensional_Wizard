@@ -1,5 +1,8 @@
 //spawnando o troca dimension
 inicia_squash()
+audio_stop_all()
+audio_play_sound(snd_musica,0,1,0.8)
+
 
 //criando as variaveis do player
 
@@ -198,6 +201,7 @@ estado_parado = function ()
     
     if(jump)
     {
+        audio_play_sound(snd_jump,1,0,1,noone,random_range(0.9,1.3))
         estado = estado_pulo
         efeito_squash(1.3,1.5)
     }
@@ -222,6 +226,7 @@ estado_move = function()
     
     if(jump)
     {
+        audio_play_sound(snd_jump,1,0,1,noone,random_range(0.9,1.3))
         estado = estado_pulo
         efeito_squash(1.3,1.5)
     }
@@ -230,7 +235,9 @@ estado_move = function()
 
 
 estado_pulo = function()
-{
+{   
+    
+    
     ajusta_escala()
 
        

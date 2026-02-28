@@ -1,0 +1,1 @@
+if(other.speed == 8 and colidi) instance_destroy(other)

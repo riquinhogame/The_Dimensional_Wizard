@@ -1,3 +1,5 @@
+
+audio_stop_all()
 persistent = true
 
 image_alpha = 1.2
@@ -6,3 +8,4 @@ image_yscale = 2
 
 rm = noone
 global.dimen = false
+global.pontos = 0

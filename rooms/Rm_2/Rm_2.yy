@@ -52,6 +52,7 @@
     {"name":"inst_DD10BD","path":"rooms/Rm_2/Rm_2.yy",},
     {"name":"inst_EDFE","path":"rooms/Rm_2/Rm_2.yy",},
     {"name":"inst_7D940C20","path":"rooms/Rm_2/Rm_2.yy",},
+    {"name":"inst_1BBAC151","path":"rooms/Rm_2/Rm_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -89,6 +90,9 @@
         {"$GMRInstance":"v4","%Name":"inst_7632F052","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7632F052","objectId":{"name":"obj_bloquinho","path":"objects/obj_bloquinho/obj_bloquinho.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":168.0,},
         {"$GMRInstance":"v4","%Name":"inst_307D9BC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_307D9BC1","objectId":{"name":"obj_bloquinho","path":"objects/obj_bloquinho/obj_bloquinho.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":786.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_AB2ED80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AB2ED80","objectId":{"name":"obj_bloquinho","path":"objects/obj_bloquinho/obj_bloquinho.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":810.0,"y":222.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1BBAC151","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BBAC151","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"propertyId":{"name":"texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[rainbow]Gostou??[/rainbow] Que [c_red]tal Agora[/c] Um Desafio Bem [wave]Pequeno?[/wave]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":320.0,},
       ],"layers":[],"name":"Orbe","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"decoracoes_obj","depth":300,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_47AC210A1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47AC210A1_1","objectId":{"name":"obj_placa_texto","path":"objects/obj_placa_texto/obj_placa_texto.yy",},"properties":[

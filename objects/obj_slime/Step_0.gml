@@ -25,4 +25,9 @@ switch (estado) {
 }
 
 retorna_squash(.06)
+if(place_meeting(x + 1 * dir,y - 2,all))
+{
+    hspeed *= -1
+    image_xscale *= -1
+}
         
